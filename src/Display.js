@@ -31,3 +31,6 @@ export const Display = ({ questions }) => {
   //"How do you handle pressure?"
 //]);   
 //here if i am adding these questions, then they are visible on the page alaong with the speaker , but when i am trying to make it random questions, it does not work.
+
+
+//i have not added this in index.js because i was getting repeated questions.

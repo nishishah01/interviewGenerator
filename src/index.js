@@ -2,10 +2,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
-import { Display } from './Display';
 import FormComponent from './FormComponent';
 import SignUp from './SignUp';
 import reportWebVitals from './reportWebVitals';
+
 
 const App = () => {
   const [questions, setQuestions] = useState([]);
@@ -23,7 +23,7 @@ const App = () => {
       ) : (
         <>
           <FormComponent setQuestions={setQuestions} />
-          <Display questions={questions} />
+          
         </>
       )}
     </React.StrictMode>
